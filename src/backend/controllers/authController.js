@@ -39,7 +39,9 @@
  exports.logIn = async (req,res,next)=>{
    const {email,password} = req.body;
    if (!email || !password){
-     return next(new appError('Please provide email and password!',400));
+     return next(new appError(
+                'Please provide email and password!',
+                400));
    }
    //check if user exists or paasword is correct
    const user = await User.findOne({email}).select('+password');

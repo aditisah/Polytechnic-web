@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MatCarousel, MatCarouselComponent } from '@ngmodule/material-carousel';
+//import { MatCarousel, MatCarouselComponent } from '@ngmodule/material-carousel';
 import { transition, animate, state, style, trigger, useAnimation, animation } from '@angular/animations';
 import { scaleIn, scaleOut, fadeIn, fadeOut, transformIn, transformOut } from './carousel.animations';
 //import { AdComponent } from './ad-banner/ad.component';

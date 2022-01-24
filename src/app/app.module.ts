@@ -26,7 +26,7 @@ import { StudentDetailsComponent } from './Frontend/authority/students/student-d
 import { LogoutComponent } from './Frontend/auth/logout/logout.component';
 // import { MDBBootstrapModule } from 'angular-bootstrap-md';
 // import { mdbCarousel } from '@angular'
-import { MatCarouselModule } from '@ngmodule/material-carousel';
+//import { MatCarouselModule } from '@ngmodule/material-carousel';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { StudentDetailAnalyticsComponent } from './Frontend/student-detail-analytics/student-detail-analytics.component';
 import { AdDirective } from './ad.directive';
@@ -87,7 +87,6 @@ const appRoutes: Routes = [
       MatTableModule,
       MatIconModule,
       MatChipsModule,
-      MatCarouselModule.forRoot(),
       FlexLayoutModule
    ],
    providers: [AdService, DynamicComponentService],
